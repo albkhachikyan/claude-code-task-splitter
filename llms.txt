@@ -1,0 +1,17 @@
+# Task Splitter
+
+> Task Splitter is a Claude Code skill and plugin that lowers the model cost of building features. It splits a task into atomic subtasks, scores each one's difficulty on five dimensions, and routes it to the cheapest capable tier: inline shell (T0), Haiku low (T1), Sonnet medium (T2), Sonnet high (T3) or Opus high (T4). It batches subtasks with the same model and effort into one subagent, runs independent batches in parallel waves, verifies with the project's own tests and linters, and escalates only failing subtasks by one tier.
+
+Install: `/plugin install task-splitter --marketplace albkhachikyan/claude-code-task-splitter`. Invoke: `/task-splitter:task-splitter <task>` (plugin) or `/task-splitter <task>` (manual install). License: MIT. Author: Albert Khachikyan.
+
+## Docs
+
+- [README](https://github.com/albkhachikyan/claude-code-task-splitter/blob/main/README.md): overview, install, usage, tiers, comparison, FAQ
+- [SKILL.md](https://github.com/albkhachikyan/claude-code-task-splitter/blob/main/SKILL.md): the full workflow and hard rules the skill follows
+- [Routing rubric](https://github.com/albkhachikyan/claude-code-task-splitter/blob/main/references/routing-rubric.md): scoring dimensions, override rules, worked examples, calibration
+- [Batch brief template](https://github.com/albkhachikyan/claude-code-task-splitter/blob/main/references/batch-brief-template.md): prompt skeleton and reply format for batch subagents
+- [Split ledger template](https://github.com/albkhachikyan/claude-code-task-splitter/blob/main/templates/split-ledger.md): format of the resumable task ledger
+
+## Optional
+
+- [Next.js Frontend Foundation](https://github.com/albkhachikyan/nextjs-frontend-foundation): companion skill that scaffolds strict Next.js 16 frontends

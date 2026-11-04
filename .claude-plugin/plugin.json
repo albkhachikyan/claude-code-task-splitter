@@ -1,0 +1,29 @@
+{
+  "name": "task-splitter",
+  "displayName": "Task Splitter",
+  "version": "1.0.0",
+  "description": "Cut Claude Code cost: split a task into subtasks, score difficulty, route each to the cheapest capable model (inline shell, Haiku, Sonnet, Opus), batch same-tier work into one subagent, verify with scripts, escalate only failures.",
+  "author": {
+    "name": "Albert Khachikyan",
+    "url": "https://github.com/albkhachikyan"
+  },
+  "homepage": "https://github.com/albkhachikyan/claude-code-task-splitter#readme",
+  "repository": "https://github.com/albkhachikyan/claude-code-task-splitter",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "skill",
+    "subagents",
+    "model-routing",
+    "cost-optimization",
+    "token-cost",
+    "haiku",
+    "sonnet",
+    "opus",
+    "plan-mode",
+    "task-decomposition",
+    "batching",
+    "llm-cost"
+  ],
+  "icon": "./assets/icon.png"
+}

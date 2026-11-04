@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Task Splitter: Claude Code skill for cost-optimized model routing"
+abstract: "Cut Claude Code cost: split a task into subtasks, score difficulty, route each to the cheapest capable model (inline shell, Haiku, Sonnet, Opus), batch same-tier work into one subagent, verify with scripts, escalate only failures."
+authors:
+  - family-names: Khachikyan
+    given-names: Albert
+version: 1.0.0
+date-released: 2026-11-04
+license: MIT
+repository-code: "https://github.com/albkhachikyan/claude-code-task-splitter"
+url: "https://github.com/albkhachikyan/claude-code-task-splitter"
+keywords:
+  - claude-code
+  - skill
+  - subagents
+  - model-routing
+  - cost-optimization
+  - token-cost
+  - haiku
+  - sonnet
+  - opus
+  - plan-mode
+  - task-decomposition
+  - batching
+  - llm-cost

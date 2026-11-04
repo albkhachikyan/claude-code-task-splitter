@@ -1,0 +1,15 @@
+{
+  "name": "albkhachikyan-task-splitter",
+  "description": "Task Splitter for Claude Code, by Albert Khachikyan",
+  "owner": {
+    "name": "Albert Khachikyan",
+    "url": "https://github.com/albkhachikyan"
+  },
+  "plugins": [
+    {
+      "name": "task-splitter",
+      "source": "./",
+      "description": "Cut Claude Code cost: split a task into subtasks, score difficulty, route each to the cheapest capable model (inline shell, Haiku, Sonnet, Opus), batch same-tier work into one subagent, verify with scripts, escalate only failures."
+    }
+  ]
+}
